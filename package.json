@@ -15,7 +15,7 @@
     "test:e2e:dev": "start-server-and-test 'vite dev --port 4173' http://localhost:4173 'cypress open --e2e'",
     "test:unit": "vitest run",
     "test:unit:dev": "vitest",
-    "lint": "eslint --ext .vue,.js,.jsx,.cjs,.mjs --ignore-path .gitignore src/ tests/",
+    "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix",
     "lint:report": "npm run lint -- --output-file eslint_report.json --format json"
   },
@@ -24,7 +24,7 @@
     "vue-router": "^4.5.0"
   },
   "devDependencies": {
-    "@rushstack/eslint-patch": "^1.10.4",
+    "@eslint/js": "^9.15.0",
     "@vitejs/plugin-vue": "^5.2.0",
     "@vitest/eslint-plugin": "1.1.10",
     "@vitest/ui": "^2.1.5",
@@ -33,7 +33,7 @@
     "cypress-mochawesome-reporter": "^3.8.2",
     "cypress-multi-reporters": "^2.0.4",
     "cypress-wait-for-stable-dom": "^0.1.0",
-    "eslint": "^8.57.1",
+    "eslint": "^9.9.1",
     "eslint-config-google": "^0.14.0",
     "eslint-plugin-cypress": "^3.6.0",
     "eslint-plugin-vue": "^9.31.0",
