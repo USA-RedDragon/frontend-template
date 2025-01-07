@@ -44,7 +44,7 @@
     "mochawesome-report-generator": "^6.2.0",
     "start-server-and-test": "^2.0.9",
     "vite": "^5.4.11",
-    "vite-plugin-vue-devtools": "^7.6.8",
+    "vite-plugin-vue-devtools": "^7.7.0",
     "vitest": "^2.1.8"
   }
 }
